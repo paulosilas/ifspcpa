@@ -25,6 +25,10 @@ and open the template in the editor.
 //        $cinfo->setCoordenador($info);
 //        $conn= new Conexao();
 //        $conn->testar();
+        
+        
+        echo "teste";
+        
         $coordenador = new Coordenador();
         $coordenador->setNome("Lucas");
         $coordenadorDAO = new CoordenadorDAO($coordenador);
